@@ -9,25 +9,104 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background: transparent;
 }
 
-#sectionLanding
+.page
 {
-    background: #1abc9c;
+    background: #ffffff;
     height: 100vh;
     width: 100%;
 }
 
+#sectionLanding
+{
+    height: 100vh;
+    width: 100%;
+    background: #1abc9c;
+}
+
 .content
 {
-    height: 50%;
+    height: 95%;
     width: 60%;
     background: #ffffff;
     margin: 0 auto;
     vertical-align: middle;
 }
 
+.table
+{
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.table-cell
+{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
 /* align content div in vertical middle/center*/
 
-.headr
+.infoHeader
 {
+    height: auto;
+    width: 40%;
+    float: left;
+    text-align: left;
+    margin: 1%;
+    background: #ccc;
+}
 
+.deviceImage
+{
+    margin: 1%;
+    height: 100%;
+    width: 56%;
+    float: right;
+    background: #ccc;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+
+#previewDevice
+{
+    /* use width later, might be handier*/
+    height: 81vh;
+    margin: 0 auto;
+}
+
+#landingTitle
+{
+    font-size: 3rem;
+    font-family: "robotothin";
+    font-weight: bold;
+    width: 100%;
+    margin: 2%;
+    color: #ffffff;
+}
+
+#landingDescription
+{
+    font-size: 1.5rem;
+    font-family: "robotothin";
+    width: 100%;
+    margin: 2%;
+    color: #ffffff;
+}
+
+.txt
+{
+    width: 100%;
+}
+
+.bottomPage
+{
+    height: 15vh;
+    background: #fff;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
 }
