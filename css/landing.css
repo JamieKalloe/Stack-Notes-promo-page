@@ -27,7 +27,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 {
     height: 95%;
     width: 60%;
-    background: #ffffff;
     margin: 0 auto;
     vertical-align: middle;
 }
@@ -48,14 +47,20 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* align content div in vertical middle/center*/
 
+.infoContainer
+{
+    width: 42%;
+    height: 100%;
+    float: left;
+}
+
 .infoHeader
 {
     height: auto;
-    width: 40%;
+    width: 98%;
     float: left;
     text-align: left;
     margin: 1%;
-    background: #ccc;
 }
 
 .deviceImage
@@ -64,7 +69,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     height: 100%;
     width: 56%;
     float: right;
-    background: #ccc;
     text-align: center;
     z-index: 2;
     position: relative;
