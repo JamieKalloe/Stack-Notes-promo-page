@@ -1,0 +1,31 @@
+/* slight changes to the body element */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+#sectionLanding
+{
+    background: #1abc9c;
+    height: 100vh;
+    width: 100%;
+}
+
+.content
+{
+    height: 50%;
+    width: 60%;
+    background: #ffffff;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.headr
+{
+
+}
