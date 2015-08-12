@@ -23,6 +23,28 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: #1abc9c;
 }
 
+#sectionLanding:before
+{
+    content: "";
+    height: 16vh;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
+#sectionLanding:after
+{
+    content: "";
+    height: 16vh;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+
 .content
 {
     height: 95%;
@@ -109,19 +131,88 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 #landingDescription
 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: "robotothin";
     width: 100%;
     margin: 2%;
     color: #ffffff;
 }
 
-.bottomPage
+.nextPageArrow
 {
-    height: 16vh;
-    width: 100%;
-    background: #fff;
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  bottom: 0;
+  position: absolute;
+  /* relative won't overlap anymore! it was absolute. HOWEVER: won't be aable to add multiple, position is pushed above.*/
+  text-decoration: none;
+  z-index: 2;
+  /*opacity: 0;*/
+}
+
+#nextIcon
+{
+  font-size: 6em;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.4);
+}
+
+.arrow
+{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  bottom: 0;
+}
+
+.bounce
+{
+  -webkit-animation-name: bounce;
+  -moz-animation-name: bounce;
+  -o-animation-name: bounce;
+  animation-name: bounce;
+}
+.animated{-webkit-animation-fill-mode:both;
+  -moz-animation-fill-mode:both;
+  -ms-animation-fill-mode:both;
+  -o-animation-fill-mode:both;
+
+  animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+
+  animation-fill-mode:both;
+  -webkit-animation-duration:2s;
+  -moz-animation-duration:2s;
+  -ms-animation-duration:2s;
+  -o-animation-duration:2s;
+  animation-duration:2s;
+}
+
+
+@-webkit-keyframes bounce
+{
+  0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	40% {-webkit-transform: translateY(-30px);}
+  60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce
+{
+  0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+  40% {-moz-transform: translateY(-30px);}
+  60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce
+{
+  0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+  40% {-o-transform: translateY(-30px);}
+  60% {-o-transform: translateY(-15px);}
+}
+
+@keyframes bounce
+{
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
 }

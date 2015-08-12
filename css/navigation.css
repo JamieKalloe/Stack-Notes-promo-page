@@ -7,6 +7,8 @@ nav#menu
     z-index: 101;
     height: 50px;
     top: 0;
+    display: none;
+    /* remove display none later */
 }
 /*
 nav#menu:hover
