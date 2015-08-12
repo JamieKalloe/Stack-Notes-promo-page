@@ -74,11 +74,27 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     position: relative;
 }
 
+.GooglePlayBadge
+{
+    margin: 1%;
+}
+
+
 #previewDevice
 {
     /* use width later, might be handier*/
     height: 81vh;
     margin: 0 auto;
+
+    /* For Opera and <= IE9, we need to add unselectable="on" attribute onto each element */
+    /* Check this site for more details: http://help.dottoro.com/lhwdpnva.php */
+    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -webkit-user-select: none;
+    -ms-user-select: none; /* From IE10 only */
+    user-select: none; /* Not valid CSS yet, as of July 2012 */
+
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;
 }
 
 #landingTitle
@@ -100,17 +116,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color: #ffffff;
 }
 
-.txt
-{
-    width: 100%;
-}
-
 .bottomPage
 {
-    height: 15vh;
-    background: #fff;
+    height: 16vh;
     width: 100%;
-    bottom: 0;
+    background: #fff;
     position: absolute;
     z-index: 0;
+    bottom: 0;
 }

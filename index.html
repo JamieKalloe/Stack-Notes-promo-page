@@ -1,76 +1,97 @@
-<!DOCTYPE html>
-<html>
-      <head>
-        <title>Stack Notes | Android app for saving media notes.</title>
-          <meta charset="utf-8"/>
-          <meta name="author" content="Jamie Kalloe"/>
-          <meta name="web_author" content="Jamie Kalloe">
-          <meta name="description" content="Official website of the Stack Notes app for Android."/>
-          <meta name="keywords" content="Jamie Kalloe android app application java Stack Notes material design google play store download apk website official promo audio text drawing photo notes ocr cards"/>
-          <meta name="robots" content="index, follow">
-          <meta name="revisit-after" content="30 days">
-          <meta name="copyright" content="Jamie Kalloe">
-          <meta name="reply-to" content="StackNotes@Kalloe.net">
-          <meta name="theme-color" content="#1abc9c">
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Stack Notes | Android app for saving media notes.</title>
+      <meta charset="utf-8"/>
+      <meta name="author" content="Jamie Kalloe"/>
+      <meta name="web_author" content="Jamie Kalloe">
+      <meta name="description" content="Official website of the Stack Notes app for Android."/>
+      <meta name="keywords" content="Jamie Kalloe android app application java Stack Notes material design google play store download apk website official promo audio text drawing photo notes ocr cards"/>
+      <meta name="robots" content="index, follow">
+      <meta name="revisit-after" content="30 days">
+      <meta name="copyright" content="Jamie Kalloe">
+      <meta name="reply-to" content="StackNotes@Kalloe.net">
+      <meta name="theme-color" content="#1abc9c">
 
-          <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      <script src="js/wow.min.js"></script>
 
-          <!-- Apple / phone icons for home screen!
-          <link rel="shortcut icon" href="images/jk.ico" type="image/x-icon">
-          <link rel="icon" href="images/jk.ico" type="image/x-icon">
-          <link rel="apple-touch-icon" href="images/touch-icon-iphone-60x60.png">
-          <link rel="apple-touch-icon" sizes="60x60" href="images/touch-icon-ipad-76x76.png">
-          <link rel="apple-touch-icon" sizes="114x114" href="images/touch-icon-iphone-retina-120x120.png">
-          <link rel="apple-touch-icon" sizes="144x144" href="images/touch-icon-ipad-retina-152x152.png">
-          -->
+      <!-- Apple / phone icons for home screen!
+      <link rel="shortcut icon" href="images/jk.ico" type="image/x-icon">
+      <link rel="icon" href="images/jk.ico" type="image/x-icon">
+      <link rel="apple-touch-icon" href="images/touch-icon-iphone-60x60.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="images/touch-icon-ipad-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/touch-icon-iphone-retina-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="images/touch-icon-ipad-retina-152x152.png">
+    -->
 
-          <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no"/>
 
-          <link rel="stylesheet" type="text/css" href="css/landing.css">
-          <link rel="stylesheet" type="text/css" href="css/navigation.css">
-      </head>
+      <link rel="stylesheet" type="text/css" href="css/animate.css">
+      <link rel="stylesheet" type="text/css" href="css/landing.css">
+      <link rel="stylesheet" type="text/css" href="css/navigation.css">
+  </head>
 
-      <body>
-        <nav id="menu">
-            <ul id="navlist" >
-              <li><a href="#sectionLanding">Stack Notes</a></li>
-            </ul>
-        </nav>
+  <body>
 
-          <main>
-            <section class="page" id="sectionLanding">
-              <section class="table">
-                <section class="table-cell">
+    <script>
+    new WOW().init();
+    </script>
 
-                  <div class="content">
-                  <div class="infoContainer">
-                    <section class="table">
-                      <section class="table-cell">
+    <nav id="menu">
+      <ul id="navlist" >
+        <li><a href="#sectionLanding">Stack Notes</a></li>
+      </ul>
+    </nav>
+
+    <main>
+
+
+
+      <section class="page" id="sectionLanding">
+        <div class="table">
+          <div class="table-cell">
+
+            <div class="content">
+              <div class="infoContainer">
+                <div class="table">
+                  <div class="table-cell">
                     <div class="infoHeader">
-                      <h1 id="landingTitle">Lorem ipsum</h1>
-                      <h2 id="landingDescription">Aenean commodo ligula eget dolor. Aenean massa. Aenean massa.</h2>
-                    </div>
-                  </section>
-                </section>
-                  </div>
-
-                    <div class="deviceImage">
-                      <section class="table">
-                        <section class="table-cell">
-                          <img src="images/previewDevice.png" id="previewDevice" alt="Android device preview">
-                        </section>
+                      <section class="wow bounceInLeft" data-wow-offset="10"  data-wow-iteration="1">
+                        <h1 id="landingTitle">Lorem ipsum</h1>
+                        <h2 id="landingDescription">Aenean commodo ligula eget dolor. Aenean massa. Aenean massa.</h2>
+                        <a href="https://play.google.com/store/apps/details?id=net.kalloe.stacknotes">
+                          <img alt="Android app on Google Play" class="GooglePlayBadge"
+                          src="https://developer.android.com/images/brand/en_app_rgb_wo_60.png" />
+                        </a>
                       </section>
                     </div>
                   </div>
+                </div>
+              </div>
 
-              <div class="bottomPage"/>
-            </section>
-          </section>
+              <div class="deviceImage">
+                <div class="table">
+                  <div class="table-cell">
+                    <section class="wow bounceInDown" data-wow-offset="10"  data-wow-iteration="1">
+                    <img src="images/previewDevice.png" id="previewDevice" alt="Android device preview">
+                  </section>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          </main>
+            <div class="bottomPage">
+            </div>
 
-          <footer>
+          </div>
+        </div>
+      </section>
 
-          </footer>
-      </body>
-</html>
+    </main>
+
+    <footer>
+
+    </footer>
+  </body>
+  </html>
