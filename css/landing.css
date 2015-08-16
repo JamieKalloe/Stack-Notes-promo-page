@@ -55,16 +55,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .table
 {
-  display: table;
-  height: 100%;
-  width: 100%;
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 
 .table-cell
 {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .infoContainer
@@ -96,7 +96,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .GooglePlayBadge
 {
-    margin: 1%;
+    margin: 3.5%;
 }
 
 #previewDevice
@@ -117,16 +117,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-family: "robotothin";
     font-weight: bold;
     width: 100%;
-    margin: 2%;
+    margin: 3.5%;
     color: #ffffff;
 }
 
-#landingDescription
+.landingDescription
 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: "robotothin";
     width: 100%;
-    margin: 2%;
+    margin: 3.5%;
     color: #ffffff;
 }
 
@@ -134,24 +134,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 {
     width: 100%;
     text-align: center;
-    vertical-align: middle;
     bottom: 0;
     position: absolute;
     text-decoration: none;
     z-index: 2;
 }
 
-#nextIcon
-{
-    font-size: 6em;
-    color: #fff;
-    text-shadow: 2px 2px 2px rgba(150, 150, 150, 0.4);
-}
-
 .arrow
 {
-    margin-top: 1%;
-    margin-bottom: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     bottom: 0;
 }
 
