@@ -1,12 +1,13 @@
 /* slight changes to the body element */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 .page
@@ -111,21 +112,29 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     user-drag: none;
 }
 
+#titleContainer
+{
+    width: 100%;
+}
+
 #landingTitle
 {
     font-size: 3rem;
     font-family: "robotothin";
     font-weight: bold;
-    width: 100%;
     margin: 3.5%;
     color: #ffffff;
+}
+
+#descriptionContainer
+{
+    width: 100%;
 }
 
 .landingDescription
 {
     font-size: 1.3rem;
     font-family: "robotothin";
-    width: 100%;
     margin: 3.5%;
     color: #ffffff;
 }
@@ -199,4 +208,108 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
     40% {transform: translateY(-30px);}
     60% {transform: translateY(-15px);}
+}
+
+/*
+    MEDIA QUERY TABLET
+*/
+@media screen and (min-width : 600px) and (max-width:1023px)
+{
+    #sectionLanding
+    {
+        /*background: #000;*/
+    }
+
+    .content
+    {
+        width: 95%;
+    }
+}
+
+/*
+    MEDIA QUERY SMARTPHONE
+*/
+@media screen and (max-width:599px)
+{
+    #sectionLanding:before
+    {
+        background: transparent;
+    }
+
+    #sectionLanding:after
+    {
+        background:transparent;
+    }
+
+    #titleContainer
+    {
+        width: 100%;
+    }
+
+    #landingTitle
+    {
+        text-align: center;
+        margin: 0%;
+        padding: 2.5%;
+    }
+
+    #GooglePlayButton
+    {
+        width: 100%;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .GooglePlayBadge
+    {
+        margin: 0%;
+        padding: 2.5%;
+    }
+
+    #descriptionContainer
+    {
+        width: 100%;
+    }
+
+    .landingDescription
+    {
+        text-align: center;
+        margin: 0%;
+        padding: 2.5%;
+    }
+
+    .content
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .infoContainer
+    {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .infoHeader
+    {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .deviceImage
+    {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    #previewDevice
+    {
+        height: 60vh;
+        display: block;
+    }
 }
