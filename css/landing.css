@@ -24,12 +24,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: #1abc9c;
 }
 
+/* background used to be white / #fff */
+
 #sectionLanding:before
 {
     content: "";
     height: 16vh;
     width: 100%;
-    background: #fff;
+    background: #ebedee;
     position: absolute;
     z-index: 0;
     top: 0;
@@ -40,7 +42,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     content: "";
     height: 16vh;
     width: 100%;
-    background: #fff;
+    background: #ebedee;
     position: absolute;
     z-index: 0;
     bottom: 0;
@@ -57,6 +59,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .table
 {
     display: table;
+    table-layout: fixed;
     height: 100%;
     width: 100%;
 }
@@ -78,7 +81,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .infoHeader
 {
     height: auto;
-    width: 98%;
     float: left;
     text-align: left;
     margin: 1%;
@@ -312,4 +314,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         height: 60vh;
         display: block;
     }
+
+    /*svg
+    {
+        fill: #fff;
+    }*/
 }
