@@ -20,6 +20,15 @@
     color: #34495e;
 }
 
+.topSubTitle
+{
+    font-size: 1.3em;
+    font-family: "robotothin";
+    font-weight: bold;
+    color: #34495e;
+    margin: 1%;
+}
+
 /*.topTitle:before
 {
   content: "\201C";
