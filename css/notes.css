@@ -23,6 +23,11 @@
     width: 63%;
 }
 
+b
+{
+    color: #1abc9c;
+}
+
 .topTitle
 {
     font-size: 3rem;
@@ -31,12 +36,17 @@
     color: #34495e;
 }
 
+.hightlight
+{
+    display: inline-block;
+}
+
 .topSubTitle
 {
     font-size: 1.3em;
     font-family: "robotothin";
     font-weight: bold;
-    color: #34495e;
+    color: #818487;
     margin: 1%;
 }
 
@@ -78,10 +88,14 @@
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
-    transition: box-shadow 0.35s;
+    -webkit-transition: box-shadow 0.35s ease-in-out 0s;
+    -moz-transition: box-shadow 0.35s ease-in-out 0s;
+    -o-transition: box-shadow 0.35s ease-in-out 0s;
+    -ms-transition: box-shadow 0.35s ease-in-out 0s;
+    transition: box-shadow 0.35s ease-in-out 0s;
 }
 
-#voicecard
+.hidden
 {
     display: none;
 }
@@ -102,6 +116,21 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
 }
 
+.card:hover .boxDescription
+{
+    color: #34495e;
+}
+
+.card:hover .cardIcon
+{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25);
+}
+
+/*.card:hover .boxTitle
+{
+    color: #1abc9c;
+}*/
+
 .cardGraphic
 {
     display: inline-block;
@@ -113,11 +142,16 @@
 
 .cardIcon
 {
-    background: #34495e;
+    background: #1abc9c;
     padding: 5%;
     margin: 10%;
     border-radius: 50%;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
+    -webkit-transition: box-shadow 0.35s ease-in-out 0s;
+    -moz-transition: box-shadow 0.35s ease-in-out 0s;
+    -o-transition: box-shadow 0.35s ease-in-out 0s;
+    -ms-transition: box-shadow 0.35s ease-in-out 0s;
+    transition: box-shadow 0.35s ease-in-out 0s;
 }
 
 .cardSummary
@@ -173,6 +207,7 @@ hr
 .boxTitle
 {
     color: #34495e;
+    transition: color 0.35s ease;
 }
 
 .boxDescription
@@ -180,6 +215,7 @@ hr
     padding: 3%;
     font-size: 1.3rem;
     font-family: "robotothin";
+    color: #818487;
 }
 
 .boxDescriptionContainer
@@ -202,7 +238,12 @@ MEDIA QUERY TABLET
 
     .content
     {
-      width: 95%;
+        width: 95%;
+    }
+
+    .hidden
+    {
+        display: none;
     }
 }
 
@@ -218,13 +259,18 @@ MEDIA QUERY SMARTPHONE
 
     .content
     {
-      width: 100%;
-      height: auto;
+        width: 100%;
+        height: auto;
     }
 
     .table-row
     {
         display: block;
+    }
+
+    .hidden
+    {
+        display: none;
     }
 
     .pageTitleTop
