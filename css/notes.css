@@ -173,3 +173,66 @@ hr
     margin: 0 auto;
     padding: 4%;
 }
+
+/*
+MEDIA QUERY TABLET
+*/
+@media screen and (min-width : 600px) and (max-width:1023px)
+{
+    #sectionLanding
+    {
+      /*background: #000;*/
+    }
+
+    .content
+    {
+      width: 95%;
+    }
+}
+
+/*
+MEDIA QUERY SMARTPHONE
+*/
+@media screen and (max-width:599px)
+{
+    #sectionNotes
+    {
+        height: auto;
+    }
+
+    .content
+    {
+      width: 100%;
+      height: auto;
+    }
+
+    .table-row
+    {
+        display: block;
+    }
+
+    .pageTitleTop
+    {
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .topTitle
+    {
+
+    }
+
+    .card
+    {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #table
+    {
+        border-spacing: 10px;
+    }
+}
