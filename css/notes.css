@@ -81,6 +81,11 @@
     transition: box-shadow 0.35s;
 }
 
+#voicecard
+{
+    display: none;
+}
+
 #table
 {
     border-collapse: separate;
