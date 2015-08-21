@@ -175,6 +175,7 @@ q:after
 .cardLink
 {
     text-decoration: none;
+    display: block;
 }
 
 .arrow_box
@@ -310,5 +311,10 @@ MEDIA QUERY SMARTPHONE
     #table
     {
         border-spacing: 10px;
+    }
+
+    .navicon
+    {
+        color: #fff;
     }
 }

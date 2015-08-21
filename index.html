@@ -28,6 +28,7 @@
       <script src="http://code.jquery.com/jquery-latest.min.js"></script>
       <script src="js/wow.min.js"></script>
       <script src="js/lucid.js"></script>
+      <script src="js/jquery.ripple.js"></script>
 
       <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no"/>
 
@@ -49,6 +50,8 @@
       <link rel="stylesheet" type="text/css" href="css/animate.css">
       <link rel="stylesheet" type="text/css" href="css/webcontrols.css">
       <link rel="stylesheet" type="text/css" href="css/navigation.css">
+      <link rel="stylesheet" type="text/css" href="css/simple-ripple-effect.css">
+      <link rel="stylesheet" type="text/css" href="css/material-design-iconic-font.min.css">
       <link rel="stylesheet" type="text/css" href="css/landing.css">
       <link rel="stylesheet" type="text/css" href="css/notes.css">
       <link rel="stylesheet" type="text/css" href="css/text.css">
@@ -76,7 +79,34 @@
     $(window).on('load', function() {
       $(this).impulse();
     });
+
+    $(document).ready(function(){
+      $( '.ripple' ).ripple({
+        'v_duration': 800,
+        'h_duration': 800
+      });
+    });
     </script>
+    <section class="menuBar">
+      <div class="menuIcon">
+        <label for="offcanvas" class="toggler">
+          <section class="wow fadeInDown" data-wow-offset="10"  data-wow-iteration="1">
+            <span class="navicon"><i class="md-menu md-lg" id="navigationMenuIcon"></i></span>
+          </label>
+        </section>
+      </div>
+    </section>
+
+      <input type="checkbox" id="offcanvas" role="checkbox" aria-checked="false" class="toggle">
+
+      <nav id="menu">
+        <ul class="navlist">
+          <li><a href="#sectionLanding" data-color="#1abc9c" class="ripple" id="about">Home</a></li>
+          <li><a href="#sectionNotes" data-color="#1abc9c" class="ripple" id="work">Functions</a></li>
+          <li><a href="#sectionText" data-color="#1abc9c" class="ripple" id="blog">Text</a></li>
+          <li><a href="#sectionText" data-color="#1abc9c" class="ripple" id="contact">Photo</a></li>
+        </ul>
+      </nav>
     <main>
 
       <section class="page" id="sectionLanding">
@@ -163,7 +193,7 @@
                       <section class="wow fadeInUp" data-wow-offset="10"  data-wow-iteration="1">
 
                     <div class="card">
-                      <a href="#sectionText" class="cardLink">
+                      <a href="#sectionText" class="cardLink ripple" data-color="#eee">
                         <div class="cardGraphic">
                           <div class="table">
                             <div class="table-cell">
@@ -189,7 +219,7 @@
                     </div>
 
                     <div class="card">
-                      <a href="#sectionText" class="cardLink">
+                      <a href="#sectionText" class="cardLink ripple" data-color="#eee">
                         <div class="cardGraphic">
                           <div class="table">
                             <div class="table-cell">
@@ -239,7 +269,7 @@
                     </div> -->
 
                     <div class="card">
-                      <a href="#sectionText" class="cardLink">
+                      <a href="#sectionText" class="cardLink ripple" data-color="#eee">
                         <div class="cardGraphic">
                           <div class="table">
                             <div class="table-cell">
