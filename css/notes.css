@@ -5,6 +5,15 @@
     background: #ebedee;
 }
 
+@font-face
+{
+  font-family: timeburner;
+  src: url(../fonts/timeburner.ttf);
+
+  font-family: robotothin;
+  src: url(../fonts/robotothin.ttf);
+}
+
 .pageTitleTop
 {
     width: 100%;
@@ -12,7 +21,7 @@
     text-align: center;
 }
 
-#titleContainer
+#smallTitleContainer
 {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -23,7 +32,7 @@
     width: 63%;
 }
 
-b
+q
 {
     color: #1abc9c;
 }
@@ -50,19 +59,19 @@ b
     margin: 1%;
 }
 
-/*.topTitle:before
+q:before
 {
   content: "\201C";
   font-family: Georgia, serif;
   margin: 0.15em;
 }
 
-.topTitle:after
+q:after
 {
   content: "\201D";
   font-family: Georgia, serif;
   margin: 0.15em;
-}*/
+}
 
 .cardsContainer
 {
@@ -84,7 +93,7 @@ b
     width: 23%;
     height: auto;
     display: table-cell;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    /*border: 1px solid rgba(0, 0, 0, 0.2);*/
     background: #fff;
     border-radius: 4px;
     box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
@@ -161,6 +170,11 @@ b
     /*background: #eee;*/
     /*margin-top: 10%;*/
     /* used to be 79*/
+}
+
+.cardLink
+{
+    text-decoration: none;
 }
 
 .arrow_box

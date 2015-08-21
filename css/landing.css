@@ -102,6 +102,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin: 3.5%;
 }
 
+.free_arrow
+{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-left: 20%;
+    position: relative;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+
 #previewDevice
 {
     height: 81vh;

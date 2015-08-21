@@ -56,14 +56,7 @@ li a:hover
     text-shadow: 2px 2px 2px rgba(33, 33, 33, 0.0);
 }
 */
-@font-face
-{
-    font-family: timeburner;
-    src: url(../fonts/timeburner.ttf);
 
-    font-family: robotothin;
-    src: url(../fonts/robotothin.ttf);
-}
 
 /* MOBILE DEVICES */
 @media screen and (max-width:599px)
