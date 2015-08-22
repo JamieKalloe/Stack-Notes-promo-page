@@ -25,6 +25,7 @@
       <meta property="og:description" content="Stack Notes for Android lets you quickly and easily create, organize and share notes anywhere you go in the form of text, images, drawings or even audio memo's.">
       <meta property="og:email" content="jamie@kalloe.net">
 
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
       <script src="http://code.jquery.com/jquery-latest.min.js"></script>
       <script src="js/wow.min.js"></script>
       <script src="js/lucid.js"></script>
@@ -58,7 +59,14 @@
   </head>
 
   <body>
+    <div class="se-pre-con"></div>
     <script>
+    // Wait for window load
+    $(window).load(function() {
+      // Animate loader off screen
+      $(".se-pre-con").fadeOut("slow");;
+    });
+
     new WOW().init();
 
     $(function() {
