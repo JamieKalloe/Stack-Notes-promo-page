@@ -7,11 +7,11 @@
 
 @font-face
 {
-  font-family: timeburner;
-  src: url(../fonts/timeburner.ttf);
+    font-family: timeburner;
+    src: url(../fonts/timeburner.ttf);
 
-  font-family: robotothin;
-  src: url(../fonts/robotothin.ttf);
+    font-family: robotothin;
+    src: url(../fonts/robotothin.ttf);
 }
 
 .pageTitleTop
