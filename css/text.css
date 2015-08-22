@@ -2,4 +2,73 @@
 {
     width: 100%;
     background: #ebedee;
+
+    background-image: url("images/backgrounds/grocery-store-mini.jpg");
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+
+}
+
+/* test */
+#sectionPhoto
+{
+    width: 100%;
+    background: #ebedee;
+}
+
+#sectionText:before
+{
+    content: "";
+    height: 16vh;
+    width: 100%;
+    background: #ebedee;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
+#sectionText:after
+{
+    content: "";
+    height: 16vh;
+    width: 100%;
+    background: #ebedee;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+
+/*
+    MEDIA QUERY TABLET
+*/
+@media screen and (min-width : 600px) and (max-width:1023px)
+{
+    .content
+    {
+        width: 95%;
+    }
+}
+
+/*
+    MEDIA QUERY SMARTPHONE
+*/
+@media screen and (max-width:599px)
+{
+    #sectionText
+    {
+        height: auto;
+    }
+
+    #sectionText:before
+    {
+        background: transparent;
+    }
+
+    #sectionText:after
+    {
+        background: transparent;
+    }
 }

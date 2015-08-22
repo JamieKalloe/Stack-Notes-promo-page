@@ -117,7 +117,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     user-drag: none;
 }
 
-#previewDevice
+.previewDevice
 {
     height: 81vh;
     margin: 0 auto;
@@ -129,12 +129,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     user-drag: none;
 }
 
-#titleContainer
+
+.titleContainer
 {
     width: 100%;
 }
 
-#landingTitle
+.landingTitle
 {
     font-size: 3rem;
     font-family: "robotothin";
@@ -143,7 +144,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color: #ffffff;
 }
 
-#descriptionContainer
+.descriptionContainer
 {
     width: 100%;
 }
@@ -232,11 +233,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 */
 @media screen and (min-width : 600px) and (max-width:1023px)
 {
-    #sectionLanding
-    {
-        /*background: #000;*/
-    }
-
     .content
     {
         width: 95%;
@@ -260,7 +256,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
     #sectionLanding:after
     {
-        background:transparent;
+        background: transparent;
     }
 
     .nextPageArrow
@@ -339,9 +335,4 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         height: 60vh;
         display: block;
     }
-
-    /*svg
-    {
-        fill: #fff;
-    }*/
 }
