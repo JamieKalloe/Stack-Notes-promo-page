@@ -1,22 +1,23 @@
 nav#menu
 {
     top: 70px;
-    left: 70px;
+    /*left: 70px;*/
+    left: -50%;
     /*height: 100%;*/
     position: fixed;
     /*width: 250px;*/
     width: 15%;
-    margin-left: -25%;
+    /*margin-left: -25%;*/
     z-index: 120;
     /*-webkit-box-shadow: 0px -2px 7px 0px rgba(91,77,61,1);
     -moz-box-shadow: 0px -2px 7px 0px rgba(91,77,61,1);
     box-shadow: 0px -2px 7px 0px rgba(91,77,61,1);*/
     /*background-color: rgba(238, 238, 238, 0.85);*/
-    -moz-transition: margin 0.4s ease;  /* FF4+ */
-    -o-transition: margin 0.4s ease;  /* Opera 10.5+ */
-    -webkit-transition: margin 0.4s ease;  /* Saf3.2+, Chrome */
-    -ms-transition: margin 0.4s ease;  /* IE10 */
-    transition: margin 0.4s ease;
+    -moz-transition: left 0.35s ease-in-out;  /* FF4+ */
+    -o-transition: left 0.35s ease-in-out;  /* Opera 10.5+ */
+    -webkit-transition: left 0.35s ease-in-out;  /* Saf3.2+, Chrome */
+    -ms-transition: left 0.35s ease-in-out;  /* IE10 */
+    transition: left 0.35s ease-in-out;
     overflow: hidden;
 
     background: #fff;
@@ -112,8 +113,7 @@ li a
     color:#1abc9c;
     text-decoration:none;
     font-size: 1.3rem;
-    transition: background-color 0.65s ease;
-
+    transition: background-color 0.45s ease;
 }
 
 li:hover a
@@ -197,7 +197,8 @@ li ul li a
 
 .toggle:checked + nav#menu
 {
-    margin-left: 0;
+    /*margin-left: 0;*/
+    left: 70px;
 }
 
 
@@ -243,7 +244,8 @@ li ul li a
     nav#menu
     {
         width: 40%;
-        margin-left: -40%;
+        /*margin-left: -40%;*/
+        left: -50%;
     }
 
     .Intro
@@ -258,7 +260,8 @@ li ul li a
     nav#menu
     {
         width: 55%;
-        margin-left: -55%;
+        /*margin-left: -55%;*/
+        left: -110%;
     }
 
     .Intro
