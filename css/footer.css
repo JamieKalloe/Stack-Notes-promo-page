@@ -1,0 +1,34 @@
+footer
+{
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    background: #1abc9c;
+    position: relative;
+}
+
+.smalltext-container
+{
+    width: 100%;
+    height: auto;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.footer-link
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    font-family: "robotothin";
+    font-weight: bold;
+    -webkit-transition: color 0.23s ease-in-out;
+    -moz-transition: color 0.23s ease-in-out;
+    -o-transition: color 0.23s ease-in-out;
+    transition: color 0.23s ease-in-out;
+}
+
+.footer-link:hover
+{
+    color: #34495e;
+}
