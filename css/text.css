@@ -2,6 +2,8 @@
 {
     width: 100%;
     background: #F5F5F5;
+    /*height: auto;*/
+    /* best height solution ?*/
 
     background-image: url("images/backgrounds/grocery-store-mini-min.jpg");
     background-position: center 0px;
@@ -25,7 +27,7 @@
     width: 100%;
     background: #FAFAFA;
     position: absolute;
-    z-index: 0;
+    z-index: 3;
     top: 0;
 }
 
@@ -36,8 +38,15 @@
     width: 100%;
     background: #FAFAFA;
     position: absolute;
-    z-index: 0;
+    z-index: 3;
     bottom: 0;
+}
+
+#textNotesDevice
+{
+    /*margin-top: 40%;*/
+    overflow: hidden;
+    z-index: 0;
 }
 
 /*
@@ -69,5 +78,10 @@
     #sectionText:after
     {
         background: transparent;
+    }
+
+    #textNotesDevice
+    {
+        margin-top: 10%;
     }
 }

@@ -28,7 +28,7 @@
       <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
       <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
       <script type="text/javascript" src="js/wow.min.js"></script>
-      <script type="text/javascript" src="js/lucid.js"></script>
+      <script type="text/javascript" src="js/jQuery.scrollSpeed.js"></script>
       <script type="text/javascript" src="js/jquery.ripple.js"></script>
 
       <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no"/>
@@ -69,6 +69,8 @@
 
     new WOW().init();
 
+    jQuery.scrollSpeed(100, 800);
+
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -82,10 +84,6 @@
           }
         }
       });
-    });
-
-    $(window).on('load', function() {
-      $(this).impulse();
     });
 
     $(document).ready(function(){
@@ -316,7 +314,7 @@
               <div class="deviceImage">
                 <div class="table">
                   <div class="table-cell">
-                    <img src="images/previewDevice.png" class="previewDevice" alt="Android text device preview">
+                    <img src="images/previewDevice.png" class="previewDevice" id="textNotesDevice" alt="Android text device preview">
                   </div>
                 </div>
               </div>
