@@ -1,15 +1,15 @@
 #sectionText
 {
     width: 100%;
-    background: #F5F5F5;
+    background: #1abc9c;
     /*height: auto;*/
     /* best height solution ?*/
 
-    background-image: url("images/backgrounds/grocery-store-mini-min.jpg");
+    /*background-image: url("images/backgrounds/grocery-store-mini-min.jpg");
     background-position: center 0px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover;*/
     position: relative;
 }
 
@@ -27,7 +27,7 @@
     width: 100%;
     background: #FAFAFA;
     position: absolute;
-    z-index: 3;
+    z-index: 0;
     top: 0;
 }
 
@@ -38,7 +38,7 @@
     width: 100%;
     background: #FAFAFA;
     position: absolute;
-    z-index: 3;
+    z-index: 0;
     bottom: 0;
 }
 
