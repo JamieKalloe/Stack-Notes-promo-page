@@ -57,7 +57,7 @@ footer
 .linkRight
 {
     float: right;
-    display: inline-block;
+    display: inline-table;
     margin-left: 15px;
 }
 
