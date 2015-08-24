@@ -49,11 +49,11 @@
 ::-moz-selection
 {
     color: black;
-    background: white;
+    background: transparent;
 }
 
 ::selection
 {
     color: black;
-    background: white;
+    background: transparent;
 }

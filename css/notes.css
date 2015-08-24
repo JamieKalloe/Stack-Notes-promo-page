@@ -208,9 +208,11 @@ q:after
 hr
 {
     border: 0;
+    margin: 0 auto;
+    width: 80%;
     height: 1px;
-    /*background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255,255,255, 0.9), rgba(0, 0, 0, 0));*/
-    background: #ebedee;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    background: #ccc;
 }
 
 .boxTitleContainer
@@ -232,6 +234,7 @@ hr
     font-size: 1.3rem;
     font-family: "robotothin";
     color: #818487;
+    /*font-weight: 600;*/
 }
 
 .boxDescriptionContainer

@@ -2,24 +2,39 @@ footer
 {
     bottom: 0;
     width: 100%;
-    height: 15vh;
-    background: #1abc9c;
+    height: auto;
+    background: #34495e;
     position: relative;
+}
+
+.footer-promotion
+{
+    width: 100%;
+    height: auto;
+    background: #1abc9c;
+}
+
+#footerTitle
+{
+    margin-top: 5%;
+    margin-bottom: 0;
+    color: #fff;
 }
 
 .smalltext-container
 {
-    width: 100%;
+    width: 60%;
     height: auto;
-    margin-top: 1.5%;
-    margin-bottom: 1.5%;
+    /*margin-top: 1.5%;
+    margin-bottom: 1.5%;*/
+    margin: 0 auto;
 }
 
 .footer-link
 {
     text-decoration: none;
-    color: #fff;
-    font-size: 1.3em;
+    color: #818487;
+    font-size: 1rem;
     font-family: "robotothin";
     font-weight: bold;
     -webkit-transition: color 0.23s ease-in-out;
@@ -30,5 +45,58 @@ footer
 
 .footer-link:hover
 {
-    color: #34495e;
+    color: #fff;
+}
+
+#linkRight
+{
+    float: right;
+    margin: 1.5%;
+    display: inline-block;
+}
+
+#linkLeft
+{
+    float: left;
+    margin: 1.5%;
+    display: inline-block;
+}
+
+/*
+    MEDIA QUERY TABLET
+*/
+@media screen and (min-width : 600px) and (max-width:1023px)
+{
+    .smalltext-container
+    {
+        width: 100%;
+    }
+}
+
+/*
+    MEDIA QUERY SMARTPHONE
+*/
+@media screen and (max-width:599px)
+{
+    .smalltext-container
+    {
+        width: 100%;
+    }
+
+    .footer-link
+    {
+        width: 100%;
+    }
+
+    #linkLeft
+    {
+        float: none;
+        margin: 0 auto;
+    }
+
+    #linkRight
+    {
+        float: none;
+        margin: 0 auto;
+    }
 }
