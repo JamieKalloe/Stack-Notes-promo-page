@@ -3,7 +3,7 @@ footer
     bottom: 0;
     width: 100%;
     height: auto;
-    background: #34495e;
+    background: #16a085;
     position: relative;
 }
 
@@ -33,8 +33,8 @@ footer
 .footer-link
 {
     text-decoration: none;
-    color: #818487;
-    font-size: 1rem;
+    color: #fff;
+    font-size: 1.1rem;
     font-family: "robotothin";
     font-weight: bold;
     -webkit-transition: color 0.23s ease-in-out;
@@ -45,17 +45,23 @@ footer
 
 .footer-link:hover
 {
-    color: #fff;
+    color: #34495e;
 }
 
-#linkRight
+.social-icons
+{
+    margin: 1.5%;
+    float: right;
+}
+
+.linkRight
 {
     float: right;
-    margin: 1.5%;
     display: inline-block;
+    margin-left: 15px;
 }
 
-#linkLeft
+.linkLeft
 {
     float: left;
     margin: 1.5%;
@@ -88,15 +94,22 @@ footer
         width: 100%;
     }
 
-    #linkLeft
+    .linkLeft
     {
         float: none;
         margin: 0 auto;
     }
 
-    #linkRight
+    .linkRight
     {
         float: none;
         margin: 0 auto;
+        width: 7%;
+    }
+
+    .social-icons
+    {
+        width: 100%;
+        display: block;
     }
 }
