@@ -270,7 +270,7 @@ li ul li a
         max-height: 0px;
         left: 0;
         margin-left: 2.5%;
-        /* not really in the center... -.-*/
+        margin-top: 2.5%;
     }
 
     .toggle:checked + nav#menu
@@ -285,5 +285,20 @@ li ul li a
     .Intro
     {
         display: none;
+    }
+
+    .menuBar
+    {
+        background: #FAFAFA;
+    }
+
+    #content
+    {
+        margin-top: 60px;
+    }
+
+    .navicon
+    {
+        margin-left: 10px;
     }
 }
