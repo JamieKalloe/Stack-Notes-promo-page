@@ -38,6 +38,21 @@ q
     color: #1abc9c;
 }
 
+.highlight
+{
+    color: #1abc9c;
+}
+
+.highlight:before
+{
+    content: "";
+}
+
+.highlight:after
+{
+    content: "";
+}
+
 .topTitle
 {
     font-size: 3rem;
@@ -60,14 +75,14 @@ q
     margin: 1%;
 }
 
-q:before
+.quote:before
 {
   content: "\201C";
   font-family: Georgia, serif;
   margin: 0.15em;
 }
 
-q:after
+.quote:after
 {
   content: "\201D";
   font-family: Georgia, serif;

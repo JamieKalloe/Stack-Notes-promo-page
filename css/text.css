@@ -5,19 +5,12 @@
     /*height: auto;*/
     /* best height solution ?*/
 
-    /*background-image: url("images/backgrounds/grocery-store-mini-min.jpg");
+    background-image: url("images/backgrounds/grocery-store-mini-min.jpg");
     background-position: center 0px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;*/
+    background-attachment: absolute;
+    background-size: cover;
     position: relative;
-}
-
-/* test */
-#sectionPhoto
-{
-    width: 100%;
-    background: #FAFAFA;
 }
 
 #sectionText:before

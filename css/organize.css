@@ -1,0 +1,49 @@
+#sectionOrganize
+{
+    width: 100%;
+    height: auto;
+    background: #FAFAFA;
+    position: relative;
+}
+
+.section-details
+{
+    height: auto;
+    width: 100%;
+    background: #FAFAFA;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.top
+{
+    top: 0;
+    /*background-image: url("images/backgrounds/grocery-store-mini-min.jpg");
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: cover;*/
+}
+
+.bottom
+{
+    bottom: 0;
+}
+
+#smallNotesDevice
+{
+    height: 50vh;
+    /*-webkit-filter: drop-shadow(0 10px 40px rgba(0, 0, 0, 0.19));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";*/
+}
+
+#smallNotesDevice2
+{
+    height: 50vh;
+    /*-webkit-filter: drop-shadow(0 10px 40px rgba(0, 0, 0, 0.19));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";*/
+}
