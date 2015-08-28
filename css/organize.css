@@ -1,8 +1,8 @@
-#sectionOrganize
+.details
 {
     width: 100%;
     height: auto;
-    background: #FAFAFA;
+    background: #000;
     position: relative;
 }
 
@@ -11,8 +11,8 @@
     height: auto;
     width: 100%;
     background: #FAFAFA;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .top
@@ -33,17 +33,18 @@
 #smallNotesDevice
 {
     height: 50vh;
-    /*-webkit-filter: drop-shadow(0 10px 40px rgba(0, 0, 0, 0.19));
+    -webkit-filter: drop-shadow(0 10px 40px rgba(0, 0, 0, 0.19));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";*/
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    /* TODO: fix, image does not show in firefox */
 }
 
 #smallNotesDevice2
 {
     height: 50vh;
-    /*-webkit-filter: drop-shadow(0 10px 40px rgba(0, 0, 0, 0.19));
+    -webkit-filter: drop-shadow(0 10px 40px rgba(0, 0, 0, 0.19));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";*/
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
