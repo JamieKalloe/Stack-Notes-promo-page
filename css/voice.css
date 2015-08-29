@@ -1,0 +1,77 @@
+#sectionVoice
+{
+    width: 100%;
+    background: #1abc9c;
+
+    background-image: url("images/backgrounds/grocery-store-min-min.jpg");
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: cover;
+    position: relative;
+}
+
+#sectionVoice:before
+{
+    content: "";
+    height: 16vh;
+    width: 100%;
+    background: #FAFAFA;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
+#sectionVoice:after
+{
+    content: "";
+    height: 16vh;
+    width: 100%;
+    background: #FAFAFA;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+
+#voiceNotesDevice
+{
+    overflow: hidden;
+    z-index: 0;
+}
+
+/*
+    MEDIA QUERY TABLET
+*/
+@media screen and (min-width : 600px) and (max-width:1023px)
+{
+    .content
+    {
+        width: 95%;
+    }
+}
+
+/*
+    MEDIA QUERY SMARTPHONE
+*/
+@media screen and (max-width:599px)
+{
+    #sectionVoice
+    {
+        height: auto;
+    }
+
+    #sectionVoice:before
+    {
+        background: transparent;
+    }
+
+    #sectionVoice:after
+    {
+        background: transparent;
+    }
+
+    #voiceNotesDevice
+    {
+        margin-top: 10%;
+    }
+}

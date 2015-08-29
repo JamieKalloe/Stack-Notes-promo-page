@@ -28,7 +28,7 @@
       <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
       <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
       <script type="text/javascript" src="js/wow.min.js"></script>
-      <script type="text/javascript" src="js/jQuery.scrollSpeed.js"></script>
+      <script type="text/javascript" src="js/lucid.js"></script>
       <script type="text/javascript" src="js/jquery.ripple.js"></script>
 
       <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no"/>
@@ -58,6 +58,7 @@
       <link rel="stylesheet" type="text/css" href="css/text.css">
       <link rel="stylesheet" type="text/css" href="css/organize.css">
       <link rel="stylesheet" type="text/css" href="css/photo.css">
+      <link rel="stylesheet" type="text/css" href="css/voice.css">
       <link rel="stylesheet" type="text/css" href="css/footer.css">
   </head>
 
@@ -76,7 +77,9 @@
     )
     wow.init();
 
-    jQuery.scrollSpeed(100, 800);
+    $(window).on('load', function() {
+      $(this).impulse();
+    });
     //lucid is not used at the moment.
     //this one is less laggy.
 
@@ -388,7 +391,7 @@
                         <section class="wow fadeInLeft" data-wow-offset="10"  data-wow-iteration="1" data-wow-duration="1s">
 
                           <div class="titleContainer">
-                            <h1 class="topTitle">Search <q class="highlight">efficiently</q> through notes</h1>
+                            <h1 class="topTitle">Efficiently <q class="highlight">search</q> through notes</h1>
                           </div>
 
                           <div class="descriptionContainer">
@@ -469,11 +472,92 @@
                         <section class="wow fadeInLeft" data-wow-offset="10"  data-wow-iteration="1" data-wow-duration="1s">
 
                           <div class="titleContainer">
-                            <h1 class="topTitle"><q class="highlight">Freely</q> speak your mind</h1>
+                            <h1 class="topTitle"><q class="highlight">Speak</q> your mind</h1>
                           </div>
 
                           <div class="descriptionContainer">
                             <h2 class="topTitle topSubTitle">Tell Stack Notes anything and it will convert your voice into text or an audio memo.</h2>
+                          </div>
+
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="deviceImage">
+                  <div class="table">
+                    <div class="table-cell">
+                      <section class="wow fadeInUp" data-wow-offset="10"  data-wow-iteration="1" data-wow-duration="1.7s">
+                        <img src="images/screenshot_zoom.png" class="previewDevice detailsPicture" alt="Android text device preview">
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Voice note page -->
+      <section class="page" id="sectionVoice">
+        <div class="table">
+          <div class="table-cell">
+
+            <div class="content">
+              <div class="infoContainer">
+                <div class="table">
+                  <div class="table-cell">
+                    <div class="infoHeader">
+                      <section class="wow fadeInLeft" data-wow-offset="10"  data-wow-iteration="1" data-wow-duration="1s">
+
+                        <div class="titleContainer">
+                          <h1 class="landingTitle">Record your voice</h1>
+                        </div>
+
+                        <div class="descriptionContainer">
+                          <h2 class="landingDescription">Stack Notes lets you convert your voice into text or record audio memo's</h2>
+                        </div>
+
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="deviceImage">
+                <div class="table">
+                  <div class="table-cell">
+                    <section class="wow fadeInUp" data-wow-offset="10"  data-wow-iteration="1" data-wow-duration="1.7s">
+                      <img src="images/previewDevice.png" class="previewDevice" id="photoNotesDevice" alt="Android text device preview">
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="page details">
+        <div class="section-details bottom">
+          <div class="table">
+            <div class="table-cell">
+              <div class="content">
+                <div class="infoContainer">
+                  <div class="table">
+                    <div class="table-cell">
+                      <div class="infoHeader">
+                        <section class="wow fadeInLeft" data-wow-offset="10"  data-wow-iteration="1" data-wow-duration="1s">
+
+                          <div class="titleContainer">
+                            <h1 class="topTitle"><q class="highlight">Share</q> your notes</h1>
+                          </div>
+
+                          <div class="descriptionContainer">
+                            <h2 class="topTitle topSubTitle">Easily share your text, photo or audio notes with other people</h2>
                           </div>
 
                         </section>
@@ -506,7 +590,7 @@
           <div class="table">
             <div class="table-cell">
               <section class="wow fadeInDown" data-wow-offset="10"  data-wow-iteration="1" data-wow-duration="1s">
-                <h2 class="topTitle" id="footerTitle">Woah?! All of this for free?!</h2>
+                <h2 class="topTitle" id="footerTitle">Ready to try Stack Notes?</h2>
               </section>
               <section class="wow fadeInDown" data-wow-offset="10"  data-wow-iteration="1" data-wow-duration="1s">
                 <div class="GooglePlayButton">
