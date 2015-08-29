@@ -30,21 +30,43 @@
     bottom: 0;
 }
 
-#smallNotesDevice
+.right
 {
-    height: 50vh;
-    -webkit-filter: drop-shadow(0 10px 40px rgba(0, 0, 0, 0.19));
-    filter: url(#drop-shadow);
-    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
-    /* TODO: fix, image does not show in firefox */
+    float: right;
 }
 
-#smallNotesDevice2
+.detailsPicture
 {
-    height: 50vh;
+    height: 65vh;
     -webkit-filter: drop-shadow(0 10px 40px rgba(0, 0, 0, 0.19));
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+/*
+    MEDIA QUERY TABLET
+*/
+@media screen and (min-width : 600px) and (max-width:1023px)
+{
+    #smallNotesDevice
+    {
+        height: 65vh;
+    }
+}
+
+/*
+    MEDIA QUERY SMARTPHONE
+*/
+@media screen and (max-width:599px)
+{
+    #smallNotesDevice
+    {
+        height: 50vh;
+    }
+
+    #smallNotesDevice2
+    {
+        height: 50vh;
+    }
 }
