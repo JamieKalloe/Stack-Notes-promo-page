@@ -103,7 +103,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .youtube_video {
-    width: 70vh;
+    width: 36vw;
     height: 40vh;
     border-radius: 7px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
@@ -259,6 +259,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 */
 @media screen and (max-width:599px)
 {
+
+    .youtube_video
+    {
+      width: 93vw;
+      margin: 0 auto;
+      height: 45vh;
+    }
+
     #sectionLanding
     {
       height: auto;
